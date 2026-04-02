@@ -1,0 +1,34 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.upload {
+  margin: 20px 0;
+}
+
+.controls {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.viewer {
+  margin-top: 20px;
+}
